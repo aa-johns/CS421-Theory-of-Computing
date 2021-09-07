@@ -1,0 +1,205 @@
+Script started on Fri 06 Nov 2020 02:49:05 PM PST
+[?1034hbash-4.2$ g++ -std=c++11 ll1.cpp
+bash-4.2$ ./a.out
+S:	 0 A 0	 1 A 1
+A:	 0 0	 1 1
+B:		
+Enter a string made of 0's and/or 1's: 0110
+Stack:Stack:
+S
+------------------------
+current char is: 0
+Pushing rhs of a rule to the stack.
+Stack:
+0
+A
+0
+------------------------
+current char is: 0
+Matched!
+
+Stack:
+A
+0
+------------------------
+current char is: 1
+Pushing rhs of a rule to the stack.
+Stack:
+1
+1
+0
+------------------------
+current char is: 1
+Matched!
+
+Stack:
+1
+0
+------------------------
+current char is: 1
+Matched!
+
+Stack:
+0
+------------------------
+current char is: 0
+Matched!
+
+Stack [Empty]
+------------------------
+Accepted!
+bash-4.2$ ./a.out
+S:	 0 A 0	 1 A 1
+A:	 0 0	 1 1
+B:		
+Enter a string made of 0's and/or 1's: 1001
+Stack:Stack:
+S
+------------------------
+current char is: 1
+Pushing rhs of a rule to the stack.
+Stack:
+1
+A
+1
+------------------------
+current char is: 1
+Matched!
+
+Stack:
+A
+1
+------------------------
+current char is: 0
+Pushing rhs of a rule to the stack.
+Stack:
+0
+0
+1
+------------------------
+current char is: 0
+Matched!
+
+Stack:
+0
+1
+------------------------
+current char is: 0
+Matched!
+
+Stack:
+1
+------------------------
+current char is: 1
+Matched!
+
+Stack [Empty]
+------------------------
+Accepted!
+bash-4.2$ ./a.out
+S:	 0 A 0	 1 A 1
+A:	 0 0	 1 1
+B:		
+Enter a string made of 0's and/or 1's: 200
+Stack:Stack:
+S
+------------------------
+current char is: 2
+Reject! No Rule Found..
+bash-4.2$ ./a.out
+S:	 0 A 0	 1 A 1
+A:	 0 0	 1 1
+B:		
+Enter a string made of 0's and/or 1's: 0110000
+Stack:Stack:
+S
+------------------------
+current char is: 0
+Pushing rhs of a rule to the stack.
+Stack:
+0
+A
+0
+------------------------
+current char is: 0
+Matched!
+
+Stack:
+A
+0
+------------------------
+current char is: 1
+Pushing rhs of a rule to the stack.
+Stack:
+1
+1
+0
+------------------------
+current char is: 1
+Matched!
+
+Stack:
+1
+0
+------------------------
+current char is: 1
+Matched!
+
+Stack:
+0
+------------------------
+current char is: 0
+Matched!
+
+Stack: [Empty]
+------------------------
+current char is: 0
+Reject! Stack is Empty..
+bash-4.2$ ./a.out
+S:	 0 A 0	 1 A 1
+A:	 0 0	 1 1
+B:		
+Enter a string made of 0's and/or 1's: 0111
+Stack:Stack:
+S
+------------------------
+current char is: 0
+Pushing rhs of a rule to the stack.
+Stack:
+0
+A
+0
+------------------------
+current char is: 0
+Matched!
+
+Stack:
+A
+0
+------------------------
+current char is: 1
+Pushing rhs of a rule to the stack.
+Stack:
+1
+1
+0
+------------------------
+current char is: 1
+Matched!
+
+Stack:
+1
+0
+------------------------
+current char is: 1
+Matched!
+
+Stack:
+0
+------------------------
+current char is: 1
+Reject! Mismatch Error..
+bash-4.2$ exit
+exit
+
+Script done on Fri 06 Nov 2020 02:51:03 PM PST

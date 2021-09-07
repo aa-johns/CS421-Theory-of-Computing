@@ -1,0 +1,21 @@
+Script started on Fri 18 Sep 2020 05:09:56 PM PDT
+[?1034hbash-4.2$ g++ recognizer.cpp
+bash-4.2$ ./a.out
+Enter a string to check, enter 'end' to exit: 0
+YES in L
+Enter a string to check, enter 'end' to exit: 1
+YES in L
+Enter a string to check, enter 'end' to exit: 00110
+YES in L
+Enter a string to check, enter 'end' to exit: 2
+NO NOT in L
+Enter a string to check, enter 'end' to exit: 02
+NO NOT in L
+Enter a string to check, enter 'end' to exit: 31
+YES in L
+Enter a string to check, enter 'end' to exit: end
+Exiting program...
+bash-4.2$ exit
+exit
+
+Script done on Fri 18 Sep 2020 05:10:32 PM PDT

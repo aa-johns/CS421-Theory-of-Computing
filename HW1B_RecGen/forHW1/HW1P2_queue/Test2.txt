@@ -1,0 +1,32 @@
+Script started on Thu 12 Sep 2019 01:36:16 PM PDT
+[?1034hbash-4.2$ g++ queue.cpp client2.cpp
+bash-4.2$ ./a.out
+A
+B
+C
+AA
+AB
+AC
+BA
+BB
+BC
+CA
+CB
+CC
+AAA
+AAB
+AAC
+ABA
+ABB
+ABC
+ACA
+ACB
+ACC
+BAA
+BAB
+BAC
+Cannot Add...
+bash-4.2$ exit
+exit
+
+Script done on Thu 12 Sep 2019 01:36:29 PM PDT

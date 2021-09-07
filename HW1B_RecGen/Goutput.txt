@@ -1,0 +1,29 @@
+Script started on Fri 18 Sep 2020 05:10:52 PM PDT
+[?1034hbash-4.2$ g++ queue.cpp generator.cpp
+bash-4.2$ ./a.out
+0
+1
+00
+01
+02
+10
+11
+12
+000
+001
+002
+010
+011
+012
+020
+021
+022
+100
+101
+102
+terminate called after throwing an instance of 'queue::Overflow'
+Aborted
+bash-4.2$ exit
+exit
+
+Script done on Fri 18 Sep 2020 05:11:20 PM PDT

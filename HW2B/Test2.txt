@@ -1,0 +1,96 @@
+Script started on Fri 09 Oct 2020 05:36:21 PM PDT
+[?1034hbash-4.2$ g++ td.cpp
+bash-4.2$ ./a.out
+This is a table driven scanner. Needs trs.txt and dfas.txt.
+States are 0 to 9 and chars are a to d
+         a b c d
+State 0: 0 1     
+State 1:         
+State 2:     2 3 
+State 3:         
+State 4:         
+State 5:         
+State 6:         
+State 7:         
+State 8:         
+State 9:         
+Token token1: 0 is start and end is 1
+Token token2: 2 is start and end is 3
+.....done reading tables....
+@@Enter a string: ab
+Trying dfa token1 -------------
+state: 0 char: a
+new state: -1
+Trying dfa token2 -------------
+state: 2 char: a
+new state: -1
+Trying dfa  -------------
+state: 0 char: a
+new state: -1
+>>>>Lexical error...
+do control-C to quit
+@@Enter a string: abb
+Trying dfa token1 -------------
+state: 0 char: a
+new state: -1
+Trying dfa token2 -------------
+state: 2 char: a
+new state: -1
+Trying dfa  -------------
+state: 0 char: a
+new state: -1
+>>>>Lexical error...
+do control-C to quit
+@@Enter a string: aaab
+Trying dfa token1 -------------
+state: 0 char: a
+new state: -1
+Trying dfa token2 -------------
+state: 2 char: a
+new state: -1
+Trying dfa  -------------
+state: 0 char: a
+new state: -1
+>>>>Lexical error...
+do control-C to quit
+@@Enter a string: cd
+Trying dfa token1 -------------
+state: 0 char: c
+new state: -1
+Trying dfa token2 -------------
+state: 2 char: c
+new state: -1
+Trying dfa  -------------
+state: 0 char: c
+new state: -1
+>>>>Lexical error...
+do control-C to quit
+@@Enter a string: cdd
+Trying dfa token1 -------------
+state: 0 char: c
+new state: -1
+Trying dfa token2 -------------
+state: 2 char: c
+new state: -1
+Trying dfa  -------------
+state: 0 char: c
+new state: -1
+>>>>Lexical error...
+do control-C to quit
+@@Enter a string: cccd
+Trying dfa token1 -------------
+state: 0 char: c
+new state: -1
+Trying dfa token2 -------------
+state: 2 char: c
+new state: -1
+Trying dfa  -------------
+state: 0 char: c
+new state: -1
+>>>>Lexical error...
+do control-C to quit
+@@Enter a string: ^C
+bash-4.2$ exit
+exit
+
+Script done on Fri 09 Oct 2020 05:36:51 PM PDT

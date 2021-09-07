@@ -1,0 +1,179 @@
+Script started on Fri 06 Sep 2019 08:40:48 AM PDT
+[?1034hbash-4.2$ g++ -std=c++11 stack.cpp stacktest.cpp
+bash-4.2$ ./a.out
+************** STACK Test Program *************
+This program tests an integer stack ADT implemented as
+an array.  
+It is a menu based program allowing you to test each method. 
+It displays the entire stack whenever it is modified.
+***********************************************
+
+MENU: These are your options: 
+
+   (1) Push an element   
+   (2) Display the entire stack  
+   (3) Pop the top element
+   (4) Display the top element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Clear the entire stack
+    Enter ( 0 ) to quit 
+===>2
+The current contents are: 
+STACK:---------
+[ empty ]
+--------------
+
+MENU: These are your options: 
+
+   (1) Push an element   
+   (2) Display the entire stack  
+   (3) Pop the top element
+   (4) Display the top element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Clear the entire stack
+    Enter ( 0 ) to quit 
+===>1
+Enter a positive integer to be added : 1
+The updated contents of the stack are:  
+STACK:---------
+1
+--------------
+
+MENU: These are your options: 
+
+   (1) Push an element   
+   (2) Display the entire stack  
+   (3) Pop the top element
+   (4) Display the top element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Clear the entire stack
+    Enter ( 0 ) to quit 
+===>1
+Enter a positive integer to be added : 2
+The updated contents of the stack are:  
+STACK:---------
+2
+1
+--------------
+
+MENU: These are your options: 
+
+   (1) Push an element   
+   (2) Display the entire stack  
+   (3) Pop the top element
+   (4) Display the top element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Clear the entire stack
+    Enter ( 0 ) to quit 
+===>1
+Enter a positive integer to be added : 3
+The updated contents of the stack are:  
+STACK:---------
+3
+2
+1
+--------------
+
+MENU: These are your options: 
+
+   (1) Push an element   
+   (2) Display the entire stack  
+   (3) Pop the top element
+   (4) Display the top element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Clear the entire stack
+    Enter ( 0 ) to quit 
+===>1
+Enter a positive integer to be added : 4
+The updated contents of the stack are:  
+STACK:---------
+4
+3
+2
+1
+--------------
+
+MENU: These are your options: 
+
+   (1) Push an element   
+   (2) Display the entire stack  
+   (3) Pop the top element
+   (4) Display the top element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Clear the entire stack
+    Enter ( 0 ) to quit 
+===>4
+4 is at the top.
+
+MENU: These are your options: 
+
+   (1) Push an element   
+   (2) Display the entire stack  
+   (3) Pop the top element
+   (4) Display the top element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Clear the entire stack
+    Enter ( 0 ) to quit 
+===>2
+The current contents are: 
+STACK:---------
+4
+3
+2
+1
+--------------
+
+MENU: These are your options: 
+
+   (1) Push an element   
+   (2) Display the entire stack  
+   (3) Pop the top element
+   (4) Display the top element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Clear the entire stack
+    Enter ( 0 ) to quit 
+===>7
+STACK:---------
+[ empty ]
+--------------
+
+MENU: These are your options: 
+
+   (1) Push an element   
+   (2) Display the entire stack  
+   (3) Pop the top element
+   (4) Display the top element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Clear the entire stack
+    Enter ( 0 ) to quit 
+===>2
+The current contents are: 
+STACK:---------
+[ empty ]
+--------------
+
+MENU: These are your options: 
+
+   (1) Push an element   
+   (2) Display the entire stack  
+   (3) Pop the top element
+   (4) Display the top element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Clear the entire stack
+    Enter ( 0 ) to quit 
+===>0
+Bye bye - ending the stack test program
+bash-4.2$ exit
+exit
+
+Script done on Fri 06 Sep 2019 08:42:24 AM PDT

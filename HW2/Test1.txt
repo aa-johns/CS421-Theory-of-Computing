@@ -1,0 +1,11 @@
+Script started on Fri 02 Oct 2020 12:14:58 PM PDT
+[?1034hbash-4.2$ g++ mat.cpp
+bash-4.2$ ./a.out
+Reading table from lines.txt...
+0| a b c | d e f | - - - | - - - 
+1| - - - | - - - | g h i | j k l 
+2| - - - | - - - | - - - | - - - 
+bash-4.2$ exit
+exit
+
+Script done on Fri 02 Oct 2020 12:15:16 PM PDT

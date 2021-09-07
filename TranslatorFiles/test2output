@@ -1,0 +1,33 @@
+Script started on Thu 17 Dec 2020 12:14:36 PM PST
+[?1034hbash-4.2$ g++ translator.cpp
+bash-4.2$ ./a.out
+opening file...
+Enter the input file name: partCtest2
+Processing <story>
+Scanner called using word: soshite
+Processing <s>
+Matched CONNECTOR
+Processing <noun>
+Scanner called using word: watashi
+Matched PRONOUN
+Scanner called using word: wa
+Matched SUBJECT
+Processing <afterSubject>
+Scanner called using word: rika
+Processing <noun>
+Matched WORD1
+Processing <afterNoun>
+Scanner called using word: desu
+Processing <be>
+Matched IS
+Scanner called using word: ne
+SYNTAX ERROR: expected PERIOD but found ne
+bash-4.2$ more translated.txt
+CONNECTOR: Then
+ACTOR: I/me
+DESCRIPTION: rika
+TENSE: IS
+bash-4.2$ exit
+exit
+
+Script done on Thu 17 Dec 2020 12:15:07 PM PST

@@ -1,0 +1,211 @@
+Script started on Wed 04 Nov 2020 01:07:43 PM PST
+]0;lkrell@empress:/cs/cs421LK/CS421Progs/HW3A_LL1[?1034h[lkrell@empress HW3A_LL1]$ ./ll1.out 
+S:       0 A 0       1 A 1 
+A:        0 0        1 1 
+B: 
+Enter a string made of 0's and/or 1's: 0110
+Stack
+S
+--------------
+current char is: 0
+adding rhs of a rule to the stack
+
+Stack
+0
+A
+0
+--------------
+current char is: 0
+matched!
+
+Stack
+A
+0
+--------------
+current char is: 1
+adding rhs of a rule to the stack
+
+Stack
+1
+1
+0
+--------------
+current char is: 1
+matched!
+
+Stack
+1
+0
+--------------
+current char is: 1
+matched!
+
+Stack
+0
+--------------
+current char is: 0
+matched!
+
+Stack
+[ empty ]
+--------------
+>>Accept!
+
+]0;lkrell@empress:/cs/cs421LK/CS421Progs/HW3A_LL1[lkrell@empress HW3A_LL1]$ ./ll1.out 
+S:       0 A 0       1 A 1 
+A:        0 0        1 1 
+B: 
+Enter a string made of 0's and/or 1's: 1001
+Stack
+S
+--------------
+current char is: 1
+adding rhs of a rule to the stack
+
+Stack
+1
+A
+1
+--------------
+current char is: 1
+matched!
+
+Stack
+A
+1
+--------------
+current char is: 0
+adding rhs of a rule to the stack
+
+Stack
+0
+0
+1
+--------------
+current char is: 0
+matched!
+
+Stack
+0
+1
+--------------
+current char is: 0
+matched!
+
+Stack
+1
+--------------
+current char is: 1
+matched!
+
+Stack
+[ empty ]
+--------------
+>>Accept!
+
+]0;lkrell@empress:/cs/cs421LK/CS421Progs/HW3A_LL1[lkrell@empress HW3A_LL1]$ ./ll1.out 
+S:       0 A 0       1 A 1 
+A:        0 0        1 1 
+B: 
+Enter a string made of 0's and/or 1's: 200
+Stack
+S
+--------------
+current char is: 2
+>>Error - no rule. Reject!
+]0;lkrell@empress:/cs/cs421LK/CS421Progs/HW3A_LL1[lkrell@empress HW3A_LL1]$ ./ll1.out 
+S:       0 A 0       1 A 1 
+A:        0 0        1 1 
+B: 
+Enter a string made of 0's and/or 1's: 001
+Stack
+S
+--------------
+current char is: 0
+adding rhs of a rule to the stack
+
+Stack
+0
+A
+0
+--------------
+current char is: 0
+matched!
+
+Stack
+A
+0
+--------------
+current char is: 0
+adding rhs of a rule to the stack
+
+Stack
+0
+0
+0
+--------------
+current char is: 0
+matched!
+
+Stack
+0
+0
+--------------
+current char is: 1
+>>Mismatch error. Reject!
+]0;lkrell@empress:/cs/cs421LK/CS421Progs/HW3A_LL1[lkrell@empress HW3A_LL1]$ ./ll1.ou[6Pex./ll1.out 
+S:       0 A 0       1 A 1 
+A:        0 0        1 1 
+B: 
+Enter a string made of 0's and/or 1's: 0000
+Stack
+S
+--------------
+current char is: 0
+adding rhs of a rule to the stack
+
+Stack
+0
+A
+0
+--------------
+current char is: 0
+matched!
+
+Stack
+A
+0
+--------------
+current char is: 0
+adding rhs of a rule to the stack
+
+Stack
+0
+0
+0
+--------------
+current char is: 0
+matched!
+
+Stack
+0
+0
+--------------
+current char is: 0
+matched!
+
+Stack
+0
+--------------
+current char is: 0
+matched!
+
+Stack
+[ empty ]
+--------------
+>>Accept!
+
+]0;lkrell@empress:/cs/cs421LK/CS421Progs/HW3A_LL1[lkrell@empress HW3A_LL1]$ exit
+exit
+
+Script done on Wed 04 Nov 2020 01:08:06 PM PST

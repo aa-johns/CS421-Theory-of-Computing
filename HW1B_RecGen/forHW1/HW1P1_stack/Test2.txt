@@ -1,0 +1,40 @@
+Script started on Sat 07 Sep 2019 12:44:36 PM PDT
+[?1034hbash-4.2$ g++ -std=c++11 stack.cpp client1.cpp
+bash-4.2$ ./a.out
+type a postfix expression: 34+
+Result: 7
+bash-4.2$ ./a.out
+type a postfix expression: 345+*
+Result: 27
+bash-4.2$ ./a.out
+type a postfix expression: 722+-
+Result: 3
+bash-4.2$ ./a.out
+type a postfix expression: 34+56++
+Result: 18
+bash-4.2$ ./a.out
+type a postfix expression: 12+34*45+-+
+Result: 6
+bash-4.2$ ./a.out
+type a postfix expression: 1234567891234
+ERROR: Stack Overflow -- Make sure there is space in the stack before you push!
+bash-4.2$ ./a.out
+type a postfix expression: +
+ERROR: Stack Underflow -- Make sure there are elements in the stack before you pop!
+bash-4.2$ ./a.out
+type a postfix expression: 3+
+ERROR: Stack Underflow -- Make sure there are elements in the stack before you pop!
+bash-4.2$ ./a.out
+type a postfix expression: 3#
+ERROR: Invalid character -- Make sure to use specified operands and operators!
+bash-4.2$ ./a.out
+type a postfix expression: 2345+
+Result: 9
+ERROR: Incomplete expression!
+bash-4.2$ ./a.out
+type a postfix expression: 12++++
+ERROR: Stack Underflow -- Make sure there are elements in the stack before you pop!
+bash-4.2$ exit
+exit
+
+Script done on Sat 07 Sep 2019 12:47:33 PM PDT
